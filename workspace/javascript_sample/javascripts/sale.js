@@ -42,7 +42,7 @@ function subtotal() {
 function calc() {
     const sum = subtotal();
     const postage = calcPostageFromPurchase(sum);
-    window.alert(`El subtotal es: ${sum} Yenes\nLos gastos de envio son: ${postage} Yenes \nTotal: ${sum + postage} Yenes`);
+    window.alert(`${display()}\nEl subtotal es: ${sum} Yenes\nLos gastos de envio son: ${postage} Yenes \nTotal: ${sum + postage} Yenes`);
     purchases = [];
     idElement.value = "";
     numberElement.value = "";
