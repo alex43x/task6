@@ -1,1 +1,0 @@
-La comunicación Ajax se ha realizado correctamente
